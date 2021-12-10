@@ -3,7 +3,7 @@
 
 linters_to_lint <- list(
   assignment_linter = lintr::assignment_linter,
-  line_length_linter = lintr::line_length_linter(80),
+  line_length_linter = lintr::line_length_linter(120),
   trailing_semicolon_linter = trailing_semicolon_linter,
   attach_detach_linter = attach_detach_linter,
   setwd_linter = setwd_linter,
